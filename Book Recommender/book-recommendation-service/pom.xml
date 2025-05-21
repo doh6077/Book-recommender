@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sheridancollege</groupId>
-	<artifactId>book-recommender</artifactId>
+	<artifactId>book-recommendation-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>book-recommender</name>
+	<name>book-recommendation-service</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
