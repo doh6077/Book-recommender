@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BookRecommenderApplication<book-recommender>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sheridancollege.book_recommender.BookRecommenderApplication",
+            "projectName": "book-recommender",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
