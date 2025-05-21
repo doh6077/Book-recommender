@@ -1,35 +1,49 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Java build output
+/target/
+*.class
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Logs
+*.log
+
+# Environment
+.env
+
+# Application properties (optional if storing secrets here)
+src/main/resources/application.properties
+src/main/resources/application.yml
+
+# IntelliJ
+.idea/
 *.iml
 *.ipr
+*.iws
+out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
 
-### VS Code ###
+# VS Code
 .vscode/
 
-.env
+# OS-specific
+.DS_Store
+Thumbs.db
+
+
+# don't track sensitive local variables 
+application.properties
