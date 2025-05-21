@@ -10,9 +10,9 @@ public class BootstrapData implements CommandLineRunner {
     private BookRepository firefighterRepo;
 	@Override
 	public void run(String... args) throws Exception {
-		firefighterRepo.save(Book.builder().name("Book1").build());
-        firefighterRepo.save(Book.builder().name("Book").build());
-        firefighterRepo.save(Book.builder().name("Book").build());
+		firefighterRepo.save(Book.builder().title("Book1").author("author1").description("description1").build());
+        firefighterRepo.save(Book.builder().title("Book2").author("author2").description("description1").build());
+        firefighterRepo.save(Book.builder().title("Book3").author("author3").description("description1").build());
 		
 
 		

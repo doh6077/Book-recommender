@@ -9,6 +9,16 @@
             "projectName": "book-recommender",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BookRecommenderApplication<user-favorite-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sheridancollege.book_recommender.BookRecommenderApplication",
+            "projectName": "user-favorite-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
