@@ -47,3 +47,4 @@ Thumbs.db
 
 # don't track sensitive local variables 
 application.properties
+application.yml
