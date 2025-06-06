@@ -1,10 +1,17 @@
+# ========================
+# General / IDE / Tooling
+# ========================
+
 HELP.md
 target/
+build/
+
+# Maven wrapper
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# STS / Eclipse
 .apt_generated
 .classpath
 .factorypath
@@ -13,21 +20,52 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
+# IntelliJ IDEA
 .idea
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+/nb-gradle/
 
-### VS Code ###
+# VS Code
 .vscode/
+
+# ===============
+# Angular Frontend
+# ===============
+
+# Angular build output
+/dist/
+/out-tsc/
+
+# Node modules
+/node_modules/
+/frontend/node_modules/
+/**/node_modules/
+
+# Angular environment files
+src/environments/environment*.ts
+
+# Angular test coverage
+/coverage/
+/.angular/cache/
+
+# NPM logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled files
+*.js
+*.js.map
+*.tsbuildinfo
+
+# OS-specific
+.DS_Store
+Thumbs.db
